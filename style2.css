@@ -17,6 +17,19 @@
     overflow: hidden;
     margin: 0 auto;
  }
+
+ .icon-contain {
+    position: relative; /* 相対位置指定 */
+  }
+  
+  .icon {
+    position: absolute; /* アイコンの位置を絶対位置で指定 */
+    top: 10px; /* 上側に配置 */
+    left: 10px; /* 左側に配置 */
+    width: 30px; /* アイコンの幅 */
+    height: 30px; /* アイコンの高さ */
+  }
+  
  @media screen and (max-width: 767px){
  .img-frame{
     width: 100%;

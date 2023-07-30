@@ -11,6 +11,10 @@ body {
     text-align: center;
   }
 
+  .icone {
+    position: absolute;
+  }
+
   .meisi {
     margin:0;
     width :100%;
